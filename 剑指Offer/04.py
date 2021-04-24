@@ -1,3 +1,8 @@
+# Find target number in a 2D matrix.
+# The number in matrix increases from left to right.
+# The number in matrix increases from top to bottom.
+# Tip: Find a beginning point where the numbers at one direction increase and the other decrease.
+
 class Solution:
     def findNumberIn2DArray(self, matrix: List[List[int]], target: int) -> bool:
         
