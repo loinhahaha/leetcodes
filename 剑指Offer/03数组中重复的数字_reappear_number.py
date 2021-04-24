@@ -11,3 +11,4 @@ class Solution:
             if num in hashmap:
                 return num
             hashmap[num] = 1
+    
