@@ -21,3 +21,4 @@ class Solution:
             head = head.next
         Ans.reverse()
         return Ans
+    
