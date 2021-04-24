@@ -6,7 +6,7 @@
 class Solution:
     def findNumberIn2DArray(self, matrix: List[List[int]], target: int) -> bool:
         
-        i, j = len(matrix) - 1, 0
+        i, j = len(matrix) - 1, 0  # Topright point
 
         while i >= 0 and j < len(matrix[0]):
             if matrix[i][j] < target:
