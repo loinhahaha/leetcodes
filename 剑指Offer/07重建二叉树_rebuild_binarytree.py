@@ -28,3 +28,4 @@ class Solution:
         root.left = self.buildTree(preorder[1:loc+1] , inorder[:loc])
         root.right = self.buildTree(preorder[loc+1:] , inorder[loc+1:])
         return root
+    
