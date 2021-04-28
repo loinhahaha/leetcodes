@@ -13,3 +13,4 @@ class Solution:
         visited = set()
 
         return dfs(0,0,0,0)
+    
